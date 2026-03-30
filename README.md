@@ -70,7 +70,7 @@ All emails are fully branded with SecureGate’s green theme and mobile‑friend
         NODE_ENV=development
         SUPPORT_EMAIL=support@securegate.com
 
-        CLIENT_URL=http://localhost:5173
+        CLIENT_URL=https://securegate-5wv8.onrender.com
 
     ### MONGODB
         MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/securegate
