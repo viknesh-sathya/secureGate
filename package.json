@@ -1,0 +1,45 @@
+{
+  "name": "secure-gate",
+  "version": "1.0.0",
+  "description": "This is a mern stack app maily focused on auth",
+  "main": "backend/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node backend/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+    "build": "npm i && npm i --prefix frontend && npm run build --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "auth",
+    "oauth",
+    "login",
+    "logout",
+    "cookie",
+    "resetpassword"
+  ],
+  "author": "viknesh-sathya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mailtrap": "^4.5.1",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.13",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
