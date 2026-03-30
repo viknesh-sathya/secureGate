@@ -59,7 +59,7 @@ All emails are fully branded with SecureGate’s green theme and mobile‑friend
 
 ## 🧪 Local Setup
 
-    git clone https://github.com/your-username/securegate.git
+    git clone https://github.com/viknesh-sathya/secureGate.git
     cd securegate
     npm run build
 
